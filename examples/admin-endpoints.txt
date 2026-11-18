@@ -1,0 +1,6 @@
+# Admin-only endpoints for the vertical Broken Access Control check.
+# The scanner requests these with the low-privilege token (TOKEN_LOW / TOKEN_B).
+# A 2xx here is a finding. No {id} placeholder is used in this file.
+/api/v1/admin/users
+/api/v1/admin/audit-log
+/api/v1/admin/settings
