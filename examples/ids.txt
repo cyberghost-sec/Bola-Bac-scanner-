@@ -1,0 +1,9 @@
+# Format:  id,owner_marker
+# These IDs must BELONG TO USER A (TOKEN_A).
+# owner_marker = a string that only User A should ever see in a response,
+# e.g. A's email, full name, account number or a private note you planted
+# in A's test record in your lab. It is what turns a guess into proof.
+# If you have no marker, just use:  id
+1001,alice@lab.local
+1002,alice@lab.local
+1003,alice@lab.local
