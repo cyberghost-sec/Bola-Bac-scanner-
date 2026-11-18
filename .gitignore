@@ -1,0 +1,15 @@
+# Scan output
+results/
+*.log
+
+# Real credentials — NEVER commit these
+config.env
+.env
+*token*
+*secret*
+
+# OS / editor
+.DS_Store
+*.swp
+.idea/
+.vscode/
