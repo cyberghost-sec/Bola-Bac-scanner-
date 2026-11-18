@@ -1,0 +1,7 @@
+# One endpoint per line. {id} is replaced with each ID from ids.txt / --id-range.
+# Lines starting with # and blank lines are ignored.
+# Only list endpoints that return an object belonging to a single owner.
+/api/v1/users/{id}/profile
+/api/v1/users/{id}/orders
+/api/v1/documents/{id}
+/api/v1/invoices/{id}
